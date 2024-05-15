@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="19">
+ <editorsettings>
+  <export target="../../mapa1.js" format="js"/>
+ </editorsettings>
+ <properties>
+  <property name="class" value="Kukac"/>
+ </properties>
+ <tileset firstgid="1" name="pozadina" tilewidth="32" tileheight="32" tilecount="56" columns="8">
+  <image source="slike/level1.png" width="256" height="240"/>
+ </tileset>
+ <tileset firstgid="57" name="Biljka1" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/biljka1.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="58" name="Biljka2" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/biljka2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="59" name="Zmija1D" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/zmija1D.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="60" name="Zmija2D" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/zmija2D.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="61" name="Zmija3D" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/zmija3D.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="62" name="Zmija1L" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/zmija1L.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="63" name="Zmija2L" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/zmija2L.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="64" name="Zmija3L" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/zmija3L.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="65" name="Kukac1D" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/kukac1D.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="66" name="Kukac2D" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/kukac2D.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="67" name="Kukac3D" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/Kukac3D.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="68" name="Kukac4D" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/Kukac4D.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="69" name="Kukac1L" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/kukac1L.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="70" name="Kukac2L" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/kukac2L.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="71" name="Kukac3L" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/Kukac3L.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="72" name="Kukac4L" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/Kukac4L.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="73" name="sova" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/sova2.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="74" name="projektilsova" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/projektilsova.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="75" name="projektilbiljke" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/projektilbiljke.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="76" name="projektilkukac" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/projektilkukac.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="77" name="novcic" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="slike/novcic.png" width="32" height="32"/>
+ </tileset>
+ <layer id="1" name="Pozadina" width="20" height="10">
+  <data encoding="csv">
+2,2,32,32,32,32,32,32,32,32,32,6,6,6,6,6,6,6,21,21,
+2,2,32,2,2,27,27,27,27,27,27,27,27,27,27,21,21,21,21,21,
+3,3,2,27,27,27,27,27,27,27,23,23,23,23,21,21,6,21,21,21,
+3,3,2,16,16,27,27,27,23,23,23,23,23,23,27,21,21,21,21,21,
+3,3,16,16,16,16,16,16,27,27,27,27,27,27,27,27,27,27,27,27,
+3,3,16,3,16,16,16,16,27,27,32,32,27,27,27,27,21,21,21,27,
+25,26,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,
+33,34,35,36,37,38,39,39,39,39,39,39,39,39,39,39,39,39,39,40,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="13" name="Object Layer 1">
+  <properties>
+   <property name="class" value="Items"/>
+  </properties>
+  <object id="3" name="projektilsova" gid="74" x="481" y="255" width="32" height="32"/>
+  <object id="5" name="projektilbiljke" gid="75" x="353" y="254" width="32" height="32"/>
+  <object id="7" name="projektilkukac" gid="76" x="256" y="259" width="32" height="32"/>
+  <object id="11" name="projektilkukacl" gid="76" x="191" y="257" width="32" height="32"/>
+  <object id="18" name="novcic" gid="77" x="96" y="256" width="32" height="32"/>
+ </objectgroup>
+ <layer id="2" name="Pod" width="20" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+41,42,43,44,45,46,47,47,47,47,47,47,47,47,47,47,47,47,47,48,
+49,50,51,52,53,54,55,55,55,55,55,55,55,55,55,55,55,55,55,56
+</data>
+ </layer>
+ <layer id="3" name="Biljka1" width="20" height="10">
+  <properties>
+   <property name="class" value="Biljka1"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Biljka2" width="20" height="10">
+  <properties>
+   <property name="class" value="Biljka2"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Biljka3" width="20" height="10">
+  <properties>
+   <property name="class" value="Biljka3"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Biljka4" width="20" height="10">
+  <properties>
+   <property name="class" value="Biljka4"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="Biljka5" width="20" height="10">
+  <properties>
+   <property name="class" value="Biljka5"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Kukac" width="20" height="10">
+  <properties>
+   <property name="class" value="Kukac"/>
+  </properties>
+  <data encoding="csv">
+0,0,65,65,67,68,69,70,70,72,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="Zmija1" width="20" height="10">
+  <properties>
+   <property name="class" value="Zmija1"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,59,60,61,62,63,64,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="Zmija2" width="20" height="10">
+  <properties>
+   <property name="class" value="Zmija2"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,59,60,61,64,63,62,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="sova" width="20" height="10">
+  <properties>
+   <property name="class" value="Sova"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
